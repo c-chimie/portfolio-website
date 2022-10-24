@@ -198,17 +198,46 @@
     <section class="contact" id="contact">
       <h1 class="heading"><span>CONTACT </span>ME</h1>
 
-      <form action="">
-        <input type="text" placeholder="Your Name" class="box" />
-        <input type="email" placeholder="Your Email" class="box" />
-        <input type="email" placeholder="Subject" class="box" />
+      <form
+        class="contact-form"
+        action="https://formsubmit.co/cchimie303@gmail.com"
+        method="POST"
+      >
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          class="box"
+          required
+        />
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://192.168.1.71:5500/thanks.html"
+        />
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          class="box"
+          required
+        />
+        <input
+          type="text"
+          name="_subject"
+          placeholder="Subject"
+          class="box"
+          required
+        />
         <textarea
-          name=""
+          name="message"
           class="box"
           placeholder="Your Message"
           id=""
           cols="30"
           rows="10"
+          required
         ></textarea>
         <input type="submit" value="Send Message" class="btn" />
       </form>

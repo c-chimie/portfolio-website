@@ -419,6 +419,18 @@ section{
     box-shadow: var(--box-shadow-inset);
 }
 
+.submit-success-hide {
+    display: none;
+}
+
+.submit-success{
+    padding-left: 20px;
+    font-size: 1.7rem;
+    display: inline;
+    color: var(--black);
+}
+
+
 /* media queries */
 
 @media (max-width:991px){
