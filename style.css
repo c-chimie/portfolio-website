@@ -59,6 +59,10 @@ body.active{
     text-align: center;
 }
 
+.my-image {
+    object-fit: cover
+}
+
 section{
     min-height: 100vh;
     padding: 2rem;
